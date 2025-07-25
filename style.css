@@ -3,17 +3,43 @@
   padding:0;
   box-sizing: border-box;
 }
-
+div {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid 
+    border-radius: 10px;
+}
 body{
-    background-color:bisque
+    background-color:aquamarine
     text-align: center;
     line-height:2.1;
-}
-
+    font-family: Arial, Helvetica, sans-serif 
 .hero img{
     border-radius: 50%
 }
-
+head{
+font-style: unset;
+font-size: medium;
+}
 .accent{
     color:aliceblue
 }
+
+@media (max-width: 768px){
+   body{background-color:azure;}
+}
+
+.grid{
+    display: flex;
+    justify-content; center;
+    justify-content: space-around;
+    flex-wrap:wrap; 
+}
+
+.grid div{
+    background-color:antiquewhite;
+    border-radius: 100px;
+    padding: 20px;
+    min-width: 80px;
+} 
